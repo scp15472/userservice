@@ -5,7 +5,7 @@ def create_login(data):
     try:
         user = data['user']
         device_id = data['device_id']
-    except Exception as ecreate_question:
+    except Exception as e:
         print e
         raise e
     try:

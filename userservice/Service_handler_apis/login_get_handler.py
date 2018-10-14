@@ -3,8 +3,9 @@ from userservice.db.user_models.models import Login
 
 def get_single_login(token):
     try:
-        login_objects = Login.objects.get(token=token, is_active=True)
-        return login_objects
+        login_objects = Login.objects.filter(token=token, is_active=True)
+        if login_objects:
+            return login_objects[0]
     except Exception as e:
         print e
         return None
