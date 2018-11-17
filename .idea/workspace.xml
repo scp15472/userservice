@@ -3,9 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="09750598-70ee-4f10-9657-0fd4182942ab" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/Service_handler_apis/login_get_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/Service_handler_apis/login_get_handler.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/userservice/Service_handler_apis/login_post_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/Service_handler_apis/login_post_handler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/Service_handler_apis/login_put_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/Service_handler_apis/login_put_handler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/Service_handler_apis/user_post_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/Service_handler_apis/user_post_handler.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/userservice/service_apis/login1.py" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/service_apis/login1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userservice/utility/login_methods.py" beforeDir="false" afterPath="$PROJECT_DIR$/userservice/utility/login_methods.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login1.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/userservice/service_apis/login1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="320">
+              <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -43,26 +45,8 @@
       <file leaf-file-name="login_post_handler.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/userservice/Service_handler_apis/login_post_handler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login_put_handler.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/userservice/Service_handler_apis/login_put_handler.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login_get_handler.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/userservice/Service_handler_apis/login_get_handler.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+            <state relative-caret-position="310">
+              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -70,8 +54,8 @@
       <file leaf-file-name="login_methods.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/userservice/utility/login_methods.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+            <state relative-caret-position="72">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -81,6 +65,33 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
               <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login_get_handler.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/userservice/Service_handler_apis/login_get_handler.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user1.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/userservice/service_apis/user1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user_get_handler.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/userservice/Service_handler_apis/user_get_handler.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -101,29 +112,29 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/userservice/service_apis/users.py" />
-        <option value="$PROJECT_DIR$/userservice/db/user_models/models.py" />
         <option value="$PROJECT_DIR$/userservice/utility/user_utilities.py" />
         <option value="$PROJECT_DIR$/userservice/db/settings/local.py" />
         <option value="$PROJECT_DIR$/userservice/service_apis/user.py" />
         <option value="$PROJECT_DIR$/userservice/service_apis/login.py" />
         <option value="$PROJECT_DIR$/userservice/db/login1.py" />
-        <option value="$PROJECT_DIR$/userservice/Service_handler_apis/user_post_handler.py" />
         <option value="$PROJECT_DIR$/userservice/Service_handler_apis/user_put_handler.py" />
         <option value="$PROJECT_DIR$/userservice/Service_handler_apis/user_delete_handler.py" />
         <option value="$PROJECT_DIR$/userservice/Service_handler_apis/user_get_handler.py" />
         <option value="$PROJECT_DIR$/userservice/service_apis/user1.py" />
         <option value="$PROJECT_DIR$/userservice/utility/user_methods.py" />
-        <option value="$PROJECT_DIR$/userservice/Service_handler_apis/login_put_handler.py" />
         <option value="$PROJECT_DIR$/userservice/Service_handler_apis/login_delete_handler.py" />
         <option value="$PROJECT_DIR$/userservice/conf/server.py" />
         <option value="$PROJECT_DIR$/manage.py" />
         <option value="$PROJECT_DIR$/userservice/utility/authenticated.py" />
         <option value="$PROJECT_DIR$/../feedservice/feedservice/service_apis/question.py" />
         <option value="$PROJECT_DIR$/../feedservice/feedservice/services/user_service.py" />
-        <option value="$PROJECT_DIR$/userservice/Service_handler_apis/login_post_handler.py" />
-        <option value="$PROJECT_DIR$/userservice/utility/login_methods.py" />
-        <option value="$PROJECT_DIR$/userservice/service_apis/login1.py" />
+        <option value="$PROJECT_DIR$/userservice/Service_handler_apis/login_put_handler.py" />
+        <option value="$PROJECT_DIR$/userservice/Service_handler_apis/user_post_handler.py" />
+        <option value="$PROJECT_DIR$/userservice/db/user_models/models.py" />
         <option value="$PROJECT_DIR$/userservice/Service_handler_apis/login_get_handler.py" />
+        <option value="$PROJECT_DIR$/userservice/utility/login_methods.py" />
+        <option value="$PROJECT_DIR$/userservice/Service_handler_apis/login_post_handler.py" />
+        <option value="$PROJECT_DIR$/userservice/service_apis/login1.py" />
       </list>
     </option>
   </component>
@@ -139,6 +150,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,18 +183,23 @@
             </path>
             <path>
               <item name="userservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="userservice" type="462c0819:PsiDirectoryNode" />
+              <item name="userservice" type="462c0819:PsiDirectoryNode" />
+              <item name="utility" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="userservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/ubuntu/Python/userservice/userservice/service_apis/user.py&#10;user&#9;null&#9;null" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../feedservice" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -347,19 +364,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1537" height="912" extended-state="6" />
+    <frame x="65" y="-4" width="1535" height="904" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22996743" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22996743" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50162864" side_tool="true" weight="0.3182406" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49837133" weight="0.3294423" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49837133" weight="0.3294423" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49837133" visible="true" weight="0.3294423" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49837133" visible="true" weight="0.34370947" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39974126" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -369,6 +386,26 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22996743" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49837133" weight="0.3294423" />
+      <window_info anchor="bottom" id="Inspection Results" order="10" weight="0.32988358" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39974126" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49837133" visible="true" weight="0.3294423" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50162864" side_tool="true" weight="0.3182406" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -524,45 +561,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/userservice/service_apis/user1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userservice/Service_handler_apis/user_get_handler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userservice/db/user_models/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="5" column="64" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userservice/Service_handler_apis/user_post_handler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userservice/db/settings/local.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2472">
-          <caret line="103" column="40" selection-start-line="103" selection-start-column="40" selection-end-line="103" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -578,9 +580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
           <caret line="19" column="63" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="63" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -598,17 +597,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/userservice/utility/user_methods.py">
+    <entry file="file://$PROJECT_DIR$/userservice/Service_handler_apis/login_put_handler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userservice/Service_handler_apis/user_post_handler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userservice/db/user_models/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userservice/db/settings/local.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="103" column="40" selection-start-line="103" selection-start-column="40" selection-end-line="103" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userservice/Service_handler_apis/user_get_handler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/userservice/utility/login_methods.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="72">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -622,34 +649,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/userservice/Service_handler_apis/login_get_handler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/userservice/Service_handler_apis/login_post_handler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userservice/Service_handler_apis/login_put_handler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="310">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/userservice/service_apis/login1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="320">
+          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userservice/utility/user_methods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userservice/Service_handler_apis/login_get_handler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userservice/service_apis/user1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>

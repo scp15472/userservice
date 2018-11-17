@@ -7,4 +7,5 @@ def get_login_dict(login_object):
            "token":login_object.token,
            "logout_time":login_object.logout_time,
            "is_active":login_object.is_active,
-           "device_id":login_object.device_id}
+           "device_id":login_object.device_id
+           }

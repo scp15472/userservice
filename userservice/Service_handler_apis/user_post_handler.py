@@ -2,6 +2,8 @@ from userservice.db.user_models.models import UserData
 
 
 def create_user(data):
+    print("******************")
+    print(data)
     try:
         username = data['username']
         password = data['password']

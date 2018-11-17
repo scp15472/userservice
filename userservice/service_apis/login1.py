@@ -19,16 +19,14 @@ class Login1(Resource):
         response.set_cookie('token', login_objects.token)
         return response
 
-        return jsonify({"Login": response_dict})
-
     def get(self, token=None):
-        if token:
+        if not token:
+            token = request.cookies.get('token')
             login_objects = login_get_handler.get_single_login(token)
             if login_objects:
                 response_dict = login_methods.get_login_dict(login_objects)
                 return jsonify({"Login": response_dict})
-            resp = Response(status=401)
-            return resp
+
 
         # filters = request.args
         # login_objects = login_get_handler.get_login_by_filter(filters)
