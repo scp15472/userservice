@@ -8,7 +8,7 @@ Django==1.8.15
 Flask==1.0.2
 -e git+https://github.com/flask-restful/flask-restful.git@8e89064f0515744f0aa14ccc3852d0b399198773#egg=Flask_RESTful
 idna==2.7
-ipython==2.4.1
+ipython==7.16.3
 itsdangerous==0.24
 Jinja2==2.10
 MarkupSafe==1.0
